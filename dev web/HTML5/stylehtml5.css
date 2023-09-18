@@ -1,4 +1,6 @@
-
+body{
+    color:white;
+}
 .fixed {
     position: fixed;
     top:0;
@@ -13,3 +15,26 @@
     margin:10px 15px 10px 15px; padding: 10px 0px 10px ;
     text-align:center;
 }
+.cabeçalho3 {
+    position:absolute;
+    top:15px;
+    right:25px;
+    transition: 0.5s;
+    opacity:0.5;
+    
+ }
+ .cabeçalho3:hover {
+    opacity:1;
+    background-color: rgb(62, 39, 126);
+    
+ }
+ .cabeçalho2 {
+    position:absolute;
+    top:10px;
+    right:200px;
+    opacity:0.5;
+}
+.cabeçalho2:hover {
+    opacity:1;
+    background-color: rgb(62, 39, 126);
+ }

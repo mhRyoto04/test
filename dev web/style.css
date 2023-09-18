@@ -12,6 +12,8 @@ h1  {
     border-color: #00f;
     margin:10px 15px 10px 15px; padding: 10px 0px 10px ;
     text-align:center;
+    
+    
 }
 
 .gallery {
@@ -27,14 +29,17 @@ h1  {
     min-width: 0;
     flex: 1 1 10px;
     object-fit: cover;
-    opacity: .5;
-    transition: .5s;
+    opacity: 1;
+    transition: 0.5s;
+    
+
 }
 
 .img_gallery:hover {
 
     flex: 1 1 100px;
     opacity: 1;
+    filter:brightness(1.2)
 }
 
 .pageinicial {
@@ -42,5 +47,33 @@ h1  {
     top:0;
     width: 100%;
     z-index:10;
-    background-color:rgb(30, 12, 79);
+    background-color:rgba(30, 12, 79,0.5);
 }
+
+.cabeçalho {
+    position:absolute;
+    top:10px;
+    right:200px;
+    opacity:0.5;
+}
+.cabeçalho:hover {
+    opacity:1;
+    background-color: rgb(62, 39, 126);
+ }
+ .cabeçalho2 {
+    position:absolute;
+    top:15px;
+    right:25px;
+    transition: 0.5s;
+    opacity:0.5;
+    
+ }
+ .cabeçalho2:hover {
+    opacity:1;
+    background-color: rgb(62, 39, 126);
+    
+ }
+ .logo{
+    position: absolute;
+    left:100px;
+ }
