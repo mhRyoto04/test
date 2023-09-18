@@ -1,0 +1,15 @@
+
+.fixed {
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 10;
+    background-color:rgb(30,12,79);
+}
+
+.cabeçalho  {
+    border-width: thick;
+    border-color: #00f;
+    margin:10px 15px 10px 15px; padding: 10px 0px 10px ;
+    text-align:center;
+}
