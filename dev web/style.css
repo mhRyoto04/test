@@ -1,6 +1,6 @@
 body    {
     
-    background-image:url(./HTML5/images/backg1.jpg);
+    background-color:rgb(46,44,44);
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center;
@@ -47,7 +47,7 @@ h1  {
     top:0;
     width: 100%;
     z-index:10;
-    background-color:rgba(30, 12, 79,1);
+    background-color: #3632cd;
     left:0px;
     right:0px;
 }
@@ -57,6 +57,7 @@ h1  {
     top:10px;
     right:200px;
     opacity:0.5;
+    
 }
 .cabeçalho:hover {
     opacity:1;
@@ -76,7 +77,7 @@ h1  {
  }
  .logo{
     position: absolute;
-    left:100px;
+    left:0px;
     
  }
 
