@@ -47,14 +47,14 @@ h1  {
     top:0;
     width: 100%;
     z-index:10;
-    background-color: #3632cd;
+    background-color: #252594;
     left:0px;
     right:0px;
 }
 
 .cabeçalho {
     position:absolute;
-    top:10px;
+    top:5px;
     right:200px;
     opacity:0.5;
     
@@ -65,7 +65,7 @@ h1  {
  }
  .cabeçalho2 {
     position:absolute;
-    top:15px;
+    top:13px;
     right:25px;
     opacity:0.5;
     
