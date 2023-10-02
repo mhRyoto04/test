@@ -75,7 +75,6 @@ body{
 .content {
     height: 620px;
     width:835px;
-    border-radius: 20px;
     overflow: hidden;
     transform: translate(30%,5%);
     top:50%;
