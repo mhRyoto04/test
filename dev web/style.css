@@ -24,47 +24,54 @@ body{
     top:0;
     width: 100%;
     z-index:10;
-    background-color: #3433cd;
+    background-color: #001634;
     left:0px;
     right:0px;
-    height:77px;
+    height:120px;
 }
 .cabeçalho {
     position:absolute;
     top:5px;
+
     right:200px;
     opacity:0.5;
     
 }
 .cabeçalho:hover {
     opacity:1;
-    background-color: rgb(62, 39, 126);
  }
  .cabeçalho2 {
     position:absolute;
     top:13px;
-    right:25px;
+    right:45px;
     opacity:0.5;
     
  }
  .cabeçalho2:hover {
     opacity:1;
-    background-color: rgb(62, 39, 126);
-    
  }
  .logo{
     position: absolute;
-    left:0px;
-    height: 77px;
+    left:50px;
+    height: 120px;
     
  }
+.carrinho{
+    position:absolute;
+    top:-8px;
+    right:93px;
+    
+}
+
+
  .garantia {
-    background-color: #4141f1;
+    background-color: #023070;
     text-align: center;
     margin:5px;
     padding:1px;
     font-family: fantasy;
-    color:black;
+    color:white;
+    font-size: 22px;
     
  }
  .pag{
@@ -73,7 +80,7 @@ body{
     
 }
 .content {
-    height: 620px;
+    height: 520px;
     width:835px;
     overflow: hidden;
     transform: translate(30%,5%);
@@ -85,7 +92,7 @@ body{
 
 .navigation {
     position: absolute;
-    bottom:20px;
+    bottom:10px;
     left:50%;
     transform: translate(-50%);
     display:flex;
@@ -93,16 +100,16 @@ body{
 }
 
 .bar {
-    width:70px;
+    width:35px;
     height: 17px;
-    border:2px solid #3433cd;
+    border:2px solid #001634;
     margin:6px;
     cursor:pointer;
     border-radius: 10px;
     transition:0.5s;
 }
 .bar:hover {
-    background-color: #3433cd;
+    background-color: #001634;
 }
 
 input {
