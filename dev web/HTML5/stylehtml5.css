@@ -1,50 +1,64 @@
-body    {
-    
-    background-color: rgb(46,44,44);
-    background-repeat: repeat;
+body{
+    background-image: url(./images/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
     background-attachment: fixed;
-    background-position: center;
-    color:white;
-    
-    
+    color:black;
 }
 .pageinicial {
     position: fixed;
-    top:0;
+    top:0px;
     width: 100%;
     z-index:10;
-    background-color: #3433cd;
+    background-color: #001634;
     left:0px;
     right:0px;
-    height:77px;
+    height:80px;
+    color:white;
+}
+.logo{
+    position: absolute;
+    top: 5px;
+    left:80px;
+    height: 70px;
+    width: 70px;
+
+ }
+
+.logo1{
+    position: absolute;
+    top: 20px;
+    left:144px;
+    height: 40px;
+    width: 120px;
 }
 .cabeçalho {
     position:absolute;
     top:5px;
+
     right:200px;
     opacity:0.5;
     
 }
 .cabeçalho:hover {
     opacity:1;
-    background-color: rgb(62, 39, 126);
  }
  .cabeçalho2 {
     position:absolute;
     top:13px;
-    right:25px;
+    right:45px;
     opacity:0.5;
     
  }
  .cabeçalho2:hover {
     opacity:1;
-    background-color: rgb(62, 39, 126);
-    
  }
- .logo{
-    position: absolute;
-    left:0px;
-    height: 77px;
+ .carrinho{
+    position:absolute;
+    top:-8px;
+    right:93px;
     
- }
+}
+
 

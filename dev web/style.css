@@ -1,6 +1,10 @@
 body{
-    background-color: rgb(46,44,44);
-    color:white;
+    background-image: url(./HTML5/images/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+    color:black;
 }
 
 .gallery {
@@ -21,13 +25,14 @@ body{
 }
 .pageinicial {
     position: fixed;
-    top:0;
+    top:0px;
     width: 100%;
     z-index:10;
     background-color: #001634;
     left:0px;
     right:0px;
-    height:120px;
+    height:80px;
+    color:white;
 }
 .cabeçalho {
     position:absolute;
@@ -52,10 +57,21 @@ body{
  }
  .logo{
     position: absolute;
-    left:50px;
-    height: 120px;
-    
+    top: 5px;
+    left:80px;
+    height: 70px;
+    width: 70px;
+
  }
+
+.logo1{
+    position: absolute;
+    top: 20px;
+    left:144px;
+    height: 40px;
+    width: 120px;
+}
+
 .carrinho{
     position:absolute;
     top:-8px;
@@ -83,7 +99,7 @@ body{
     height: 520px;
     width:835px;
     overflow: hidden;
-    transform: translate(30%,5%);
+    transform: translate(40%,5%);
     top:50%;
     left:50%;
  
