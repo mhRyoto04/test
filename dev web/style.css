@@ -97,13 +97,9 @@ body{
 }
 .content {
     height: 520px;
-    width:835px;
+    width:750px;
     overflow: hidden;
-    transform: translate(40%,5%);
-    top:50%;
-    left:50%;
- 
-   
+    transform: translate(50%,5%);
 }
 
 .navigation {
