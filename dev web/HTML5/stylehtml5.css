@@ -61,4 +61,210 @@ body{
     
 }
 
+.tecladotitulo2{
+    position:absolute;
+    top:170px;
+    left:500px;
+    color:rgb(78, 74, 74);
+}
+.tecladotitulo5{
+    position:absolute;
+    top:235px;
+    left:500px;
+    color:rgb(110, 107, 107);
+}
+.tecladopreço2{
+    position:absolute;
+    top:275px;
+    left:500px;
+    color:rgb(110, 107, 107);
+}
+.tecladopreço21{
+    position:absolute;
+    top:292px;
+    left:524px;
+    color:rgb(240, 6, 6);
+}
+.tecladoimg2{
+    position:absolute;
+    left:80px;
+    top:90px;
+}
 
+.tecladotitulo1{
+    position:absolute;
+    top:170px;
+    left:500px;
+    color:rgb(78, 74, 74);
+}
+.tecladotitulo51{
+    position:absolute;
+    top:235px;
+    left:500px;
+    color:rgb(110, 107, 107);
+}
+.tecladopreço1{
+    position:absolute;
+    top:275px;
+    left:500px;
+    color:rgb(110, 107, 107);
+}
+.tecladopreço11{
+    position:absolute;
+    top:292px;
+    left:524px;
+    color:rgb(240, 6, 6);
+}
+.tecladoimg1{
+    position:absolute;
+    left:70px;
+    top:90px;
+}
+
+.tecladotitulo3{
+    position:absolute;
+    top:170px;
+    left:500px;
+    color:rgb(78, 74, 74);
+}
+.tecladotitulo53{
+    position:absolute;
+    top:235px;
+    left:500px;
+    color:rgb(110, 107, 107);
+}
+.tecladopreço3{
+    position:absolute;
+    top:275px;
+    left:500px;
+    color:rgb(110, 107, 107);
+}
+.tecladopreço33{
+    position:absolute;
+    top:292px;
+    left:524px;
+    color:rgb(240, 6, 6);
+}
+.tecladoimg3{
+    position:absolute;
+    left:70px;
+    top:90px;
+}
+
+.cardt1{
+    background-color: #fff;
+width:415px;
+height:530px;
+border-radius: 12px;
+box-shadow: 4px 4px 12px #aaaa;
+position: absolute;
+left:10px;
+
+}
+.cardt2{
+    background-color: #fff;
+width:415px;
+height:530px;
+border-radius: 12px;
+box-shadow: 4px 4px 12px #aaaa;
+position: absolute;
+left:465px;
+}
+.cardt3{
+    background-color: #fff;
+width:415px;
+height:530px;
+border-radius: 12px;
+box-shadow: 4px 4px 12px #aaaa;
+position: absolute;
+left:918px;
+}
+.tecladoimgcard1{
+    left:50px;
+    position: relative;
+}
+.tecladoimgcard2{
+    left:50px;
+    position: relative;
+}
+.bt1{
+    background-color: #001634;
+    color:white;
+    position:relative;
+    left:10;
+    height:30px;
+    width:400px;
+    border-radius: 10px;
+}
+.bt2{
+    background-color: #001634;
+    color:white;
+    position:relative;
+    left:10;
+    height:30px;
+    width:400px;
+    border-radius: 10px;
+}
+.bt3{
+    background-color: #001634;
+    color:white;
+    position:relative;
+    left:10;
+    height:30px;
+    width:400px;
+    border-radius: 10px;
+}
+.bt1:hover{
+    filter:brightness(1.3);
+    cursor:pointer;
+}
+.bt2:hover{
+    filter:brightness(1.3);
+    cursor:pointer;
+}
+.bt3:hover{
+    filter:brightness(1.3);
+    cursor:pointer;
+}
+.precot1{
+    color:rgb(240, 6, 6);
+    position: absolute;
+    top:395px;
+    left:53px;
+}
+.precot2{
+    color:rgb(240, 6, 6);
+    position: absolute;
+    top:395px;
+    left:53px;
+}
+.precot3{
+    color:rgb(240, 6, 6);
+    position: absolute;
+    top:395px;
+    left:53px;
+}
+.precoh5t1{
+    position: relative;
+    left:30px;
+}
+.precoh5t2{
+    position: relative;
+    left:30px;
+}
+.precoh5t3{
+    position: relative;
+    left:30px;
+}
+.titulot1{
+    position: relative;
+    left:25px;
+}
+.titulot2{
+    position: relative;
+    left:25px;
+}
+.titulot3{
+    position: relative;
+    left:25px;
+}
