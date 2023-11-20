@@ -50,10 +50,12 @@ body{
     top:13px;
     right:45px;
     opacity:0.5;
+    color:white;
     
  }
  .cabeçalho2:hover {
     opacity:1;
+    
  }
  .logo{
     position: absolute;
@@ -181,3 +183,181 @@ input {
 #slide4:checked ~ .s1 {
     margin-left: -75%;
 }
+
+main {
+    padding:0px 30px 30px;
+}
+.page-title {
+    font-size: 40px;
+    padding:50px 0;
+    text-align: center;
+}
+.contentcarrinho {
+display: flex;
+
+}
+
+section {
+    flex:1;
+}
+
+aside {
+    min-width: 250px;
+    margin-left: 30px;
+}
+
+aside header{
+    padding: 15px 20px;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.infocarrinho{
+    padding: 20px;
+
+    >div{
+        display:flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+}
+
+footer{
+    padding:15px 20px;
+    font-size: 16px;
+    background: #000c1c;
+}
+.box{
+    margin-bottom: 15px;
+    border:1px solid #ccc;
+    background: #001634;
+    color: white;
+}
+
+.asidebutton{
+    border: 0;
+    background: transparent;
+    color: #1668dc;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+
+    >i{
+        font-size: 18px;
+    }
+}
+.asidebutton2{
+    background: #1668dc;
+    display: block;
+    width: 100%;
+    color:white;
+    border:0;
+    padding:15px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+
+
+thead tr{
+    border-bottom: 3px solid grey;
+}
+
+thead th{
+    text-align: left;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+    color:#666;
+}
+
+
+
+tbody tr{
+    border-bottom: 3px solid grey;
+    &:last-child {border:0}
+}
+
+tbody td{
+padding: 30px 0;
+}
+
+.product {
+        display: flex;
+    align-items: center;
+}
+
+.imgcarrinho {
+ height: 100px;
+ width: 200px;
+}
+
+.info {
+margin-left: 20px;
+}
+
+.name{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.category{
+color: #666;
+}
+
+.remove{
+    background: #001634;
+    border: 0;
+    color:white;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.remove:hover{
+    background:#011b40 ;
+    cursor:pointer;
+}
+
+.qty{
+    background: #001634;
+    display: inline-flex;
+    padding: 0 0;
+    color:white;
+    justify-content: space-around;
+    min-width: 60px;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 30px;
+}
+
+.qtyb{
+    border:0;
+    background: #001634;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0 10px;
+    font-size: 18px;
+    height: 100%;
+}
+
+.qtyb:hover{
+    cursor:pointer;
+    background:#011b40 ;
+}
+
+span{
+    margin: 0 10px;
+}
+
