@@ -95,6 +95,8 @@ body{
  .pag{
     position: relative;
     bottom:15px;
+    margin-left: 45%;
+    margin-top:4% ;
     
 }
 .content {
@@ -115,7 +117,7 @@ body{
 
 .bar {
     width:35px;
-    height: 17px;
+    height: 10px;
     border:2px solid #001634;
     margin:6px;
     cursor:pointer;
@@ -132,6 +134,7 @@ input {
 
 .slides {
     display:flex;
+    margin-left: -5%;
     width: 500%;
     height:100%;
 }
@@ -331,6 +334,7 @@ color: #666;
     
 
 }
+
 .remove:hover{
     background:#011b40 ;
     cursor:pointer;
@@ -370,3 +374,28 @@ span{
     margin: 0 10px;
 }
 
+.copyright_site{
+    position: relative;
+    bottom:-30px;
+    margin-left: 43%;
+    font-family:serif;
+    font-size: 12px;
+}
+
+.rodape {
+    text-align: center;
+    bottom:-30px;
+    
+    font-family:serif;
+    font-size: 25px;
+
+
+}
+
+.rodape2 {
+    margin-top: -8% ;
+    bottom:-30px;
+    margin-left: 5%;
+    font-family:serif;
+    font-size: 12px;
+}
