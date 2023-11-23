@@ -49,10 +49,12 @@ body{
     top:13px;
     right:45px;
     opacity:0.5;
+    color:white;
     
  }
  .cabeçalho2:hover {
     opacity:1;
+    
  }
  .carrinho{
     position:absolute;
@@ -63,96 +65,6 @@ body{
 
 /*teclados*/
 
-
-.tecladotitulo2{
-    position:absolute;
-    top:170px;
-    left:500px;
-    color:rgb(78, 74, 74);
-}
-.tecladotitulo5{
-    position:absolute;
-    top:235px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.tecladopreço2{
-    position:absolute;
-    top:275px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.tecladopreço21{
-    position:absolute;
-    top:292px;
-    left:524px;
-    color:rgb(240, 6, 6);
-}
-.tecladoimg2{
-    position:absolute;
-    left:80px;
-    top:90px;
-}
-
-.tecladotitulo1{
-    position:absolute;
-    top:170px;
-    left:500px;
-    color:rgb(78, 74, 74);
-}
-.tecladotitulo51{
-    position:absolute;
-    top:235px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.tecladopreço1{
-    position:absolute;
-    top:275px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.tecladopreço11{
-    position:absolute;
-    top:292px;
-    left:524px;
-    color:rgb(240, 6, 6);
-}
-.tecladoimg1{
-    position:absolute;
-    left:70px;
-    top:90px;
-}
-
-.tecladotitulo3{
-    position:absolute;
-    top:170px;
-    left:500px;
-    color:rgb(78, 74, 74);
-}
-.tecladotitulo53{
-    position:absolute;
-    top:235px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.tecladopreço3{
-    position:absolute;
-    top:275px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.tecladopreço33{
-    position:absolute;
-    top:292px;
-    left:524px;
-    color:rgb(240, 6, 6);
-}
-.tecladoimg3{
-    position:absolute;
-    left:50px;
-    top:90px;
-}
 .cardst{
     display:flex;
     width:100%;
@@ -285,96 +197,6 @@ margin-left: 35px;
 }
 
 /*mouse*/
-
-.mousetitulo2{
-    position:absolute;
-    top:170px;
-    left:500px;
-    color:rgb(78, 74, 74);
-}
-.mousetitulo5{
-    position:absolute;
-    top:235px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.mousepreço2{
-    position:absolute;
-    top:275px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.mousepreço21{
-    position:absolute;
-    top:292px;
-    left:524px;
-    color:rgb(240, 6, 6);
-}
-.mouseimg2{
-    position:absolute;
-    left:80px;
-    top:90px;
-}
-
-.mousetitulo1{
-    position:absolute;
-    top:170px;
-    left:500px;
-    color:rgb(78, 74, 74);
-}
-.mousetitulo51{
-    position:absolute;
-    top:235px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.mousepreço1{
-    position:absolute;
-    top:275px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.mousepreço11{
-    position:absolute;
-    top:292px;
-    left:524px;
-    color:rgb(240, 6, 6);
-}
-.mouseimg1{
-    position:absolute;
-    left:70px;
-    top:90px;
-}
-
-.mousetitulo3{
-    position:absolute;
-    top:170px;
-    left:500px;
-    color:rgb(78, 74, 74);
-}
-.mousetitulo53{
-    position:absolute;
-    top:235px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.mousepreço3{
-    position:absolute;
-    top:275px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.mousepreço33{
-    position:absolute;
-    top:292px;
-    left:524px;
-    color:rgb(240, 6, 6);
-}
-.mouseimg3{
-    position:absolute;
-    left:70px;
-    top:90px;
-}
 .cardsm{
     display:flex;
     width:100%;
@@ -507,96 +329,6 @@ margin-left: 35px;
 }
 
 /*gabinetes*/
-
-.gabinetetitulo2{
-    position:absolute;
-    top:170px;
-    left:500px;
-    color:rgb(78, 74, 74);
-}
-.gabinetetitulo5{
-    position:absolute;
-    top:235px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.gabinetepreço2{
-    position:absolute;
-    top:275px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.gabinetepreço21{
-    position:absolute;
-    top:292px;
-    left:524px;
-    color:rgb(240, 6, 6);
-}
-.gabineteimg2{
-    position:absolute;
-    left:80px;
-    top:90px;
-}
-
-.gabinetetitulo1{
-    position:absolute;
-    top:170px;
-    left:500px;
-    color:rgb(78, 74, 74);
-}
-.gabinetetitulo51{
-    position:absolute;
-    top:235px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.gabinetepreço1{
-    position:absolute;
-    top:275px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.gabinetepreço11{
-    position:absolute;
-    top:292px;
-    left:524px;
-    color:rgb(240, 6, 6);
-}
-.gabineteimg1{
-    position:absolute;
-    left:70px;
-    top:90px;
-}
-
-.gabinetetitulo3{
-    position:absolute;
-    top:170px;
-    left:500px;
-    color:rgb(78, 74, 74);
-}
-.gabinetetitulo53{
-    position:absolute;
-    top:235px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.gabinetepreço3{
-    position:absolute;
-    top:275px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.gabinetepreço33{
-    position:absolute;
-    top:292px;
-    left:524px;
-    color:rgb(240, 6, 6);
-}
-.gabineteimg3{
-    position:absolute;
-    left:70px;
-    top:90px;
-}
 .cardsg{
     display:flex;
     width:100%;
@@ -729,96 +461,6 @@ margin-left: 35px;
 }
 
 /*headset*/
-
-.headsettitulo2{
-    position:absolute;
-    top:170px;
-    left:500px;
-    color:rgb(78, 74, 74);
-}
-.headsettitulo5{
-    position:absolute;
-    top:235px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.headsetpreço2{
-    position:absolute;
-    top:275px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.headsetpreço21{
-    position:absolute;
-    top:292px;
-    left:524px;
-    color:rgb(240, 6, 6);
-}
-.headsetimg2{
-    position:absolute;
-    left:80px;
-    top:90px;
-}
-
-.headsettitulo1{
-    position:absolute;
-    top:170px;
-    left:500px;
-    color:rgb(78, 74, 74);
-}
-.headsettitulo51{
-    position:absolute;
-    top:235px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.headsetpreço1{
-    position:absolute;
-    top:275px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.headsetpreço11{
-    position:absolute;
-    top:292px;
-    left:524px;
-    color:rgb(240, 6, 6);
-}
-.headsetimg1{
-    position:absolute;
-    left:70px;
-    top:90px;
-}
-
-.headsettitulo3{
-    position:absolute;
-    top:170px;
-    left:500px;
-    color:rgb(78, 74, 74);
-}
-.headsettitulo53{
-    position:absolute;
-    top:235px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.headsetpreço3{
-    position:absolute;
-    top:275px;
-    left:500px;
-    color:rgb(110, 107, 107);
-}
-.headsetpreço33{
-    position:absolute;
-    top:292px;
-    left:524px;
-    color:rgb(240, 6, 6);
-}
-.headsetimg3{
-    position:absolute;
-    left:70px;
-    top:90px;
-}
 .cardsh{
     display:flex;
     width:100%;
@@ -950,19 +592,3 @@ margin-left: 35px;
     left:25px;
 }
 
-.addcart{
-    left: 490px;
-    position:relative;
-    top:250px;
-    border-radius: 10px;
-    border:10px;
-    height:30px;
-    width:370px;
-    background: #001634;
-    color:white;
-    font-size: 16px;
-}
-.addcart:hover{
-    cursor:pointer;
-    background:#011b40;
-}
