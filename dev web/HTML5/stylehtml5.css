@@ -63,6 +63,7 @@ body{
 
 /*teclados*/
 
+
 .tecladotitulo2{
     position:absolute;
     top:170px;
@@ -149,7 +150,7 @@ body{
 }
 .tecladoimg3{
     position:absolute;
-    left:70px;
+    left:50px;
     top:90px;
 }
 .cardst{
@@ -947,4 +948,21 @@ margin-left: 35px;
 .tituloh3{
     position: relative;
     left:25px;
+}
+
+.addcart{
+    left: 490px;
+    position:relative;
+    top:250px;
+    border-radius: 10px;
+    border:10px;
+    height:30px;
+    width:370px;
+    background: #001634;
+    color:white;
+    font-size: 16px;
+}
+.addcart:hover{
+    cursor:pointer;
+    background:#011b40;
 }
