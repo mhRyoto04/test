@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDTech</title> 
+    <link rel="stylesheet" href="./HTML5/gabinete.html">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./HTML5/teclado.html">
+    <link rel="stylesheet" href="./HTML5/headset.html">
+    <link rel="stylesheet" href="./HTML5/mouse.html">
+    <link rel="stylesheet" href="https://www.whatfontis.com/CR_HK-Modular-Rounded-Bold-otf-700.font">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+ <script async src="script.js"></script>
+</head>
+<body>
+    <header class="pageinicial">
+        <a href="index.html" target="_self"><img class="logo" src="./HTML5/images/logo-ex.gif" alt="Logo" height="100%" width="10%"></a> 
+        <a href="index.html" target="_self"><img class="logo1" src="./HTML5/images/gdtech.png" alt="Logo" height="50%" width="10%"></a> 
+         <h1><br></h1>
+     <p class="cabeçalho">Entre ou <br><strong>Cadastre-se</strong></p>
+     <a href="carrinhodecompras.html" target="_self">
+     <p class="cabeçalho2"><strong>Meu carrinho</strong> <img class="carrinho" src="./HTML5/images/carrinho.png" height="35px" width="35px"> </p>
+     </a>
+     
+     </header>
+     <br><br><br><br><br><br><br>
+     <main>
+        <div class="page-title">Seu Carrinho</div>
+        <div class="contentcarrinho">
+            <section>
+                <table id="cartTable">
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Preço</th>
+                            <th>Quantidade</th>
+                            <th>Total</th>
+                            <th>-</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="cartproduct">
+                            <td>
+                                <div class="product"></div>
+                                <img class="imgcarrinho" src="./HTML5/images/ex-pc.png" alt="Teclado2">
+                                <div class="info"></div>
+                                <div class="name">GABINETE PRETO COM RGB<br>ULTIMA GERAÇÃO</h2>
+                                <div class="category">GABINETE</div>
+                            </td>
+                            <td class="cartproductprice">R$379,90</td>
+                            <td>
+                                <div class="qty">
+                                    <input class="qtyb" type="number" value="0" oninput="updateTotal(this)">
+                                </div>
+                            </td>
+                            <td class="precomulti">R$0,00</td>
+                            <td>
+                                <button class="remove" onclick="removeItem(this)"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="cartproduct">
+                            <td>
+                                <div class="product"></div>
+                                <img class="imgcarrinho" src="./HTML5/images/ex-pc2.png" alt="Teclado2">
+                                <div class="info"></div>
+                                <div class="name">GABINETE PRETO COM RGB <br>COSTUMIZAVEL</div>
+                                <div class="category">GABINETE</div>
+                            </td>
+                            <td class="cartproductprice">R$309,90</td>
+                            <td>
+                                <div class="qty">
+                                    <input class="qtyb" type="number" value="0" oninput="updateTotal(this)">
+                                </div>
+                            </td>
+                            <td class="precomulti">R$0,00</td>
+                            <td>
+                                <button class="remove" onclick="removeItem(this)"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="cartproduct">
+                            <td>
+                                <div class="product"></div>
+                                <img class="imgcarrinho" src="./HTML5/images/ex-pc3.png" alt="Teclado2">
+                                <div class="info"></div>
+                                <div class="name">GABINETE PRETO FOSCO <br>MODERNO</div>
+                                <div class="category">GABINETE</div>
+                            </td>
+                            <td class="cartproductprice">R$459,90</td>
+                            <td>
+                                <div class="qty">
+                                    <input class="qtyb" type="number" value="0" oninput="updateTotal(this)">
+                                </div>
+                            </td>
+                            <td class="precomulti">R$0,00</td>
+                            <td>
+                                <button class="remove" onclick="removeItem(this)"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="cartproduct">
+                            <td>
+                                <div class="product"></div>
+                                <img class="imgcarrinho" src="./HTML5/images/headset-ex.jpg" alt="Teclado2">
+                                <div class="info"></div>
+                                <div class="name">THEADSET RAZER SURROND 6.1<br>VERDE COM FIO</div>
+                                <div class="category">HEADSET</div>
+                            </td>
+                            <td class="cartproductprice">R$379,90</td>
+                            <td>
+                                <div class="qty">
+                                    <input class="qtyb" type="number" value="0" oninput="updateTotal(this)">
+                                </div>
+                            </td>
+                            <td class="precomulti">R$0,00</td>
+                            <td>
+                                <button class="remove" onclick="removeItem(this)"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="cartproduct">
+                            <td>
+                                <div class="product"></div>
+                                <img class="imgcarrinho" src="./HTML5/images/headset2.jpg" alt="Teclado2">
+                                <div class="info"></div>
+                                <div class="name">HEADSET HYPERX SURROND 6.1<br>PRETO COM FIO</div>
+                                <div class="category">HEADSET</div>
+                            </td>
+                            <td class="cartproductprice">R$309,90</td>
+                            <td>
+                                <div class="qty">
+                                    <input class="qtyb" type="number" value="0" oninput="updateTotal(this)">
+                                </div>
+                            </td>
+                            <td class="precomulti">R$0,00</td>
+                            <td>
+                                <button class="remove" onclick="removeItem(this)"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="cartproduct">
+                            <td>
+                                <div class="product"></div>
+                                <img class="imgcarrinho" src="./HTML5/images/headset3.jpg" alt="Teclado2">
+                                <div class="info"></div>
+                                <div class="name">HEADSET LOGITECH SURROND 6.1<br>AZUL COM FIO</div>
+                                <div class="category">HEADSET</div>
+                            </td>
+                            <td class="cartproductprice">R$189,90</td>
+                            <td>
+                                <div class="qty">
+                                    <input class="qtyb" type="number" value="0" oninput="updateTotal(this)">
+                                </div>
+                            </td>
+                            <td class="precomulti">R$0,00</td>
+                            <td>
+                                <button class="remove" onclick="removeItem(this)"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="cartproduct">
+                            <td>
+                                <div class="product"></div>
+                                <img class="imgcarrinho" src="./HTML5/images/mouse-ex.jpg" alt="Teclado2">
+                                <div class="info"></div>
+                                <div class="name">MOUSE COM RGB 6400 DPI<br>COM FIO</div>
+                                <div class="category">MOUSE</div>
+                            </td>
+                            <td class="cartproductprice">R$179,90</td>
+                            <td>
+                                <div class="qty">
+                                    <input class="qtyb" type="number" value="0" oninput="updateTotal(this)">
+                                </div>
+                            </td>
+                            <td class="precomulti">R$0,00</td>
+                            <td>
+                                <button class="remove" onclick="removeItem(this)"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="cartproduct">
+                            <td>
+                                <div class="product"></div>
+                                <img class="imgcarrinho" src="./HTML5/images/mouse2-ex.png" alt="Teclado2">
+                                <div class="info"></div>
+                                <div class="name">MOUSE REDRAGON 8000 DPI<br>COM FIO</div>
+                                <div class="category">MOUSE</div>
+                            </td>
+                            <td class="cartproductprice">R$109,90</td>
+                            <td>
+                                <div class="qty">
+                                    <input class="qtyb" type="number" value="0" oninput="updateTotal(this)">
+                                </div>
+                            </td>
+                            <td class="precomulti">R$0,00</td>
+                            <td>
+                                <button class="remove" onclick="removeItem(this)"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="cartproduct">
+                            <td>
+                                <div class="product"></div>
+                                <img class="imgcarrinho" src="./HTML5/images/mouse3-ex.png" alt="Teclado2">
+                                <div class="info"></div>
+                                <div class="name">MOUSE GAMER 5000 DPI<br> COM FIO</div>
+                                <div class="category">MOUSE</div>
+                            </td>
+                            <td class="cartproductprice">R$89,90</td>
+                            <td>
+                                <div class="qty">
+                                    <input class="qtyb" type="number" value="0" oninput="updateTotal(this)">
+                                </div>
+                            </td>
+                            <td class="precomulti">R$0,00</td>
+                            <td>
+                                <button class="remove" onclick="removeItem(this)"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="cartproduct">
+                            <td>
+                                <div class="product"></div>
+                                <img class="imgcarrinho" src="./HTML5/images/teclado-ex.jpg" alt="Teclado2">
+                                <div class="info"></div>
+                                <div class="name">TECLADO MECANICO GAMER <br>COM RGB</div>
+                                <div class="category">Teclado</div>
+                            </td>
+                            <td class="cartproductprice">R$279,90</td>
+                            <td>
+                                <div class="qty">
+                                    <input class="qtyb" type="number" value="0" oninput="updateTotal(this)">
+                                </div>
+                            </td>
+                            <td class="precomulti">R$0,00</td>
+                            <td>
+                                <button class="remove" onclick="removeItem(this)"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="cartproduct">
+                            <td>
+                                <div class="product"></div>
+                                <img class="imgcarrinho" src="./HTML5/images/teclado-ex2.jpg" alt="Teclado2">
+                                <div class="info"></div>
+                                <div class="name">TECLADO MECANICO GAMER <br>PRETO SEM RGB</div>
+                                <div class="category">Teclado</div>
+                            </td>
+                            <td class="cartproductprice">R$209,90</td>
+                            <td>
+                                <div class="qty">
+                                    <input class="qtyb" type="number" value="0" oninput="updateTotal(this)">
+                                </div>
+                            </td>
+                            <td class="precomulti">R$0,00</td>
+                            <td>
+                                <button class="remove" onclick="removeItem(this)"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+                        <tr class="cartproduct">
+                            <td>
+                                <div class="product"></div>
+                                <img class="imgcarrinho" src="./HTML5/images/teclado-ex3.jpg" alt="Teclado2">
+                                <div class="info"></div>
+                                <div class="name">TECLADO MECANICO GAMER <br>CUSTOMIZADO</div>
+                                <div class="category">Teclado</div>
+                            </td>
+                            <td class="cartproductprice">R$289,90</td>
+                            <td>
+                                <div class="qty">
+                                    <input class="qtyb" type="number" value="0" oninput="updateTotal(this)">
+                                </div>
+                            </td>
+                            <td class="precomulti">R$0,00</td>
+                            <td>
+                                <button class="remove" onclick="removeItem(this)"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <aside>
+                <div class="box">
+                    <header>Resumo da compra</header>
+                    <div class="infocarrinho">
+                        <div><span>Sub-Total</span><span id="subtotal">R$0,00</span></div>
+                        <div><span>Frete</span><span>Gratuito</span></div>
+                        <div><button class="asidebutton">Adicionar Cupom de Desconto
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </button></div>
+                    </div>
+                    <footer>
+                        <span>Total R$</span>
+                        <div id="total">0,00</div>
+                    </footer>
+                </div>
+                <button class="asidebutton2" onclick="openPopup()">Finalizar Compra</button>
+            </aside>
+        </div>
+    </main>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <p>Seu pedido foi enviado com sucesso! Obrigado por comprar conosco.</p>
+        </div>
+    </div>
+
+    <script>
+         function updateTotal(input) {
+            const priceElement = input.closest("tr").getElementsByClassName("cartproductprice")[0];
+            const totalPriceElement = input.closest("tr").getElementsByClassName("precomulti")[0];
+            const totalElement = document.getElementById("total");
+
+            const price = parseFloat(priceElement.textContent.replace("R$", "").replace(",", "."));
+            const quantity = parseInt(input.value);
+            const total = price * quantity;
+
+            totalPriceElement.textContent = "R$" + total.toFixed(2);
+
+            updateCartTotals();  
+        }
+
+        function updateCartTotals() {
+            const rows = document.getElementById("cartTable").getElementsByTagName("tbody")[0].getElementsByTagName("tr");
+            let newTotal = 0;
+
+            for (let i = 0; i < rows.length; i++) {
+                const rowTotal = parseFloat(rows[i].getElementsByClassName("precomulti")[0].textContent.replace("R$", "").replace(",", "."));
+                newTotal += rowTotal;
+            }
+
+            document.getElementById("subtotal").textContent = "R$" + newTotal.toFixed(2);
+            document.getElementById("total").textContent = newTotal.toFixed(2);
+        }
+
+        function removeItem(button) {
+            const row = button.closest("tr");
+            row.remove();
+            updateCartTotals();  
+        }
+
+        function openPopup() {
+            
+            const tableBody = document.getElementById("cartTable").getElementsByTagName("tbody")[0];
+            while (tableBody.firstChild) {
+                tableBody.removeChild(tableBody.firstChild);
+            }
+
+            updateCartTotals();  
+
+            const popup = document.getElementById('popup');
+            popup.style.display = 'block';
+        }
+
+        function closePopup() {
+            const popup = document.getElementById('popup');
+            popup.style.display = 'none';
+        }
+
+
+         </script>
+
+    
+</body>
+</html>

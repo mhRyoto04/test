@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GDTech</title>
+  <link rel="stylesheet" href="style.css"> 
+  <script src="script.js"></script> 
+</head>
+<body>
+  <header class="pageinicial">
+    <a href="index.html" target="_self"><img class="logo" src="./HTML5/images/logo-ex.gif" alt="Logo" height="100%" width="10%"></a> 
+    <a href="index.html" target="_self"><img class="logo1" src="./HTML5/images/gdtech.png" alt="Logo" height="50%" width="10%"></a> 
+     <h1><br></h1>
+ <a href="cadastro.html" target="self">
+ <p class="cabeçalho">Entre ou <br><strong>Cadastre-se</strong></p>
+ </a>
+ <a href="carrinhodecompras.html" target="_self">
+ <p class="cabeçalho2"><strong>Meu carrinho</strong> <img class="carrinho" src="./HTML5/images/carrinho.png" height="35px" width="35px"> </p>
+ </a>
+ 
+ </header>
+<br><br><br><br><br>
+  
+<div class="areacandidato">
+  <h1 class="cadastroh1">Cadastro</h1>
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="telefone">Telefone:</label><br>
+    <textarea id="telefone" name="telefone" required></textarea><br><br>
+
+   <form id="cadastro" onsubmit="return validarCadastro()">
+  <input type="submit" value="Enviar">
+  </form>
+  
+  
+</div>
+ 
+  <div id="mensagem-envio"></div>
+
+  
+
+</body>
+</html>
